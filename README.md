@@ -1,6 +1,7 @@
 # University Learning Management System
 
-![LMS Banner](lms_banner.jpg)
+
+![LMS Banner](Project Content/MAD_LMS-cover.jpg)
 
 This Mobile-based Learning Management System (LMS) project aims to fulfill the requirements of creating pages, adding graphics, making buttons, and integrating an information architecture. These elements are essential for developing a user-friendly and visually appealing application that enhances the educational experience for both students and lecturers.
 
