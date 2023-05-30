@@ -31,6 +31,6 @@ This project utilizes the following technologies:
 
 Here are some screenshots showcasing the user interface of the University Learning Management System:
 
-![Screenshot 1](screenshot_1.png)
-![Screenshot 2](screenshot_2.png)
+![Screenshot 1](Project Content/pic1.png)
+![Screenshot 2](Project Content/pic2.png)
 ![Screenshot 3](screenshot_3.png)
