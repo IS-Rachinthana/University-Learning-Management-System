@@ -1,7 +1,7 @@
 # University Learning Management System
 # <img src="Project Content/MADLMS_COVER.jpg"> 
 
-<a href="#"><img alt="views" title="Github views" src="https://komarev.com/ghpvc/?username=lakshithaonline&style=flat" width="125"/></a>
+<a href="#"><img alt="views" title="Github views" src="https://komarev.com/ghpvc/?username=IS-Rachinthana&style=flat" width="125"/></a>
 [![Welcome](https://img.shields.io/badge/NSBM%20Green%20University-Welcome-brightgreen)](#) 
 [![Welcome](https://img.shields.io/badge/Mobile%20Application%20Development-Final%20Project-orange)](#)
 
