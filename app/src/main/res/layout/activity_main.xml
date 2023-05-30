@@ -10,7 +10,7 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start"
     tools:context=".MainActivity">
-<Text
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
