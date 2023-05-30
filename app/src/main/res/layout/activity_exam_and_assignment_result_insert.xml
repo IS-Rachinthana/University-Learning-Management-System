@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background13"
+    tools:context=".exam_and_assignment_result_insert">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:background="@drawable/custom_edittext">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/studentName"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="Name"
+
+                android:drawableLeft="@drawable/login_email_person"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/studentIndexNum"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="20dp"
+
+                android:padding="8dp"
+                android:hint="Index Number"
+                android:drawableLeft="@drawable/login_password_lock"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/selectTypeActivity"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="20dp"
+                android:padding="8dp"
+                android:hint="activityMethod"
+                android:entries="@array/activitymethod"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"
+                tools:layout_editor_absoluteX="161dp"
+                tools:layout_editor_absoluteY="175dp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/selectTypeDegree"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="20dp"
+                android:padding="8dp"
+                android:hint="degreeType"
+                android:entries="@array/DegreeType"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"
+                tools:layout_editor_absoluteX="161dp"
+                tools:layout_editor_absoluteY="175dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/batchName"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="20dp"
+
+                android:padding="8dp"
+                android:hint="Batch Name"
+
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/moduleName"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="20dp"
+
+                android:padding="8dp"
+                android:hint="Module Name "
+
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/studentMarks"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="20dp"
+
+                android:padding="8dp"
+                android:hint="Student Marks "
+
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"/>
+
+            <Button
+                android:id="@+id/btnInsertData"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/lavender"
+                android:text="Insert Data"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/retieveViewDataBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+
+                android:backgroundTint="@color/lavender"
+                android:text="Retreive Data"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                app:cornerRadius="20dp" />
+
+            <!--
+            <com.developer.gbuttons.GoogleSignInButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign in with Google"
+                android:id="@+id/googleBtn"
+                app:isDarkTheme = "true"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:padding="8dp"/>
+
+            -->
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

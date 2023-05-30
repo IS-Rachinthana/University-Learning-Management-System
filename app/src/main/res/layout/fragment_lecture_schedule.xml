@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn = "navigation_view"
+    android:background="@drawable/loginpagebkg"
+    tools:context="">
+
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="413dp"
+            android:layout_height="376dp"
+            android:background="@color/white"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.002" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="230dp"
+            android:layout_height="63dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.624" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="117dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/lavender"
+            android:onClick="buttonSaveEvent"
+            android:text="Schedule Lecture"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.908"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.607" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

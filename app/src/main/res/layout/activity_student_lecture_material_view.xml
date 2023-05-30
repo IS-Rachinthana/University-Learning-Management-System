@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginpagebkg"
+    tools:context=".student_lecture_material_view">
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lavender"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00FFFFFF"
+            android:longClickable="false"
+
+            app:srcCompat="@drawable/baseline_arrow_back_backbutton" />
+
+        <TextView
+            android:id="@+id/lecturematerialtext3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="View Lecture Materials"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </com.google.android.material.navigation.NavigationView>
+
+    <ListView
+        android:id="@+id/student_lecture_material_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="90dp"
+
+        android:background="#60FFFFFF"
+        android:padding="20dp">
+
+    </ListView>
+
+
+</RelativeLayout>

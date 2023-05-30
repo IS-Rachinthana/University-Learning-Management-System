@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Navigation Drawer</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="usertype">
+        <item>Admin</item>
+        <item>Lecturer</item>
+        <item>Student</item>
+    </string-array>
+
+    <array name="activitymethod">
+        <item>Exam</item>
+        <item>Assignment</item>
+
+    </array>
+    <array name="DegreeType">
+
+        <item>BSc (Honours) in Data Science-UGC</item>
+        <item>BSc (Hons) Computer Networks-PU</item>
+        <item>BSc (Hons) Computer Security-PU</item>
+        <item>Bachelor of Information Technology (Major in Cyber Security)-VU</item>
+        <item>BSc (Hons) in Computer Networks-UGC</item>
+        <item>>BSc (Hons) Computer Science-PU</item>
+        <item>BSc in Management Information Systems (Special)-UGC</item>
+    </array>
+</resources>
