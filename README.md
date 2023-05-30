@@ -1,6 +1,9 @@
 # University Learning Management System
 # <img src="Project Content/MAD_LMS-cover.jpg"> 
 
+<a href="#"><img alt="views" title="Github views" src="https://komarev.com/ghpvc/?username=lakshithaonline&style=flat" width="125"/></a>
+[![Welcome](https://img.shields.io/badge/NSBM%20Green%20University-Welcome-brightgreen)](#) 
+[![Welcome](https://img.shields.io/badge/Mobile%20Application%20Development-Final%20Project-orange)](#)
 
 This Mobile-based Learning Management System (LMS) project aims to fulfill the requirements of creating pages, adding graphics, making buttons, and integrating an information architecture. These elements are essential for developing a user-friendly and visually appealing application that enhances the educational experience for both students and lecturers.
 
